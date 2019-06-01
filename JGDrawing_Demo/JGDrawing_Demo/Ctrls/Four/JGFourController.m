@@ -75,6 +75,7 @@
         case 0:
         {
             UIViewController *vc = [NSClassFromString(@"ProgressViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
             vc.title = listArray[indexPath.row];
             [self.navigationController pushViewController:vc animated:YES];
         }
@@ -82,6 +83,7 @@
         case 1:
         {
             UIViewController *vc = [NSClassFromString(@"CalibrationViewController") new];
+             vc.hidesBottomBarWhenPushed = YES;
             vc.title = listArray[indexPath.row];
             [self.navigationController pushViewController:vc animated:YES];
         }
@@ -89,6 +91,7 @@
         case 2:
         {
             UIViewController *vc = [NSClassFromString(@"TotalProgressVC") new];
+             vc.hidesBottomBarWhenPushed = YES;
             vc.title = listArray[indexPath.row];
             [self.navigationController pushViewController:vc animated:YES];
         }
@@ -96,6 +99,7 @@
         case 3:
         {
             UIViewController *vc = [NSClassFromString(@"StatisticalVC") new];
+             vc.hidesBottomBarWhenPushed = YES;
             vc.title = listArray[indexPath.row];
             [self.navigationController pushViewController:vc animated:YES];
         }
@@ -103,6 +107,7 @@
         case 4:
         {
             UIViewController *vc = [NSClassFromString(@"WaterWaveVC") new];
+             vc.hidesBottomBarWhenPushed = YES;
             vc.title = listArray[indexPath.row];
             [self.navigationController pushViewController:vc animated:YES];
         }

@@ -29,7 +29,7 @@
         <!--Draw Controller-->
         <scene sceneID="97x-RN-L0t">
             <objects>
-                <viewController id="uZP-LL-2mK" customClass="JGDrawController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="uZP-LL-2mK" customClass="JGDrawController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bqm-p7-v29">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
