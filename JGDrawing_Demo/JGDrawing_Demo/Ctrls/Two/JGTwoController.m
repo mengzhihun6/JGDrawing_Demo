@@ -19,11 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    
     [self draw];
     [self draw2];
     [self draw3];
     // Do any additional setup after loading the view.
 }
+
+
 #pragma mark ========== 使用CGPath绘图 ==========
 - (void)draw {
     //开始图像绘制

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633E88FF22A2160700DF12D8 /* JGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633E88FE22A2160700DF12D8 /* JGAppDelegate.m */; };
 		633E890522A2160700DF12D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633E890322A2160700DF12D8 /* Main.storyboard */; };
 		633E890722A2160900DF12D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633E890622A2160900DF12D8 /* Assets.xcassets */; };
 		633E890A22A2160900DF12D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633E890822A2160900DF12D8 /* LaunchScreen.storyboard */; };
@@ -38,6 +39,8 @@
 		633E898522A22D2C00DF12D8 /* CalibrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633E898422A22D2C00DF12D8 /* CalibrationViewController.m */; };
 		633E898922A22D3F00DF12D8 /* WaterWaveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633E898622A22D3F00DF12D8 /* WaterWaveVC.xib */; };
 		633E898A22A22D3F00DF12D8 /* WaterWaveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 633E898822A22D3F00DF12D8 /* WaterWaveVC.m */; };
+		633E899122A274E600DF12D8 /* JGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 633E899022A274E600DF12D8 /* JGView.m */; };
+		633E899422A2769400DF12D8 /* JGDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633E899322A2769400DF12D8 /* JGDrawController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +120,10 @@
 		633E898622A22D3F00DF12D8 /* WaterWaveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaterWaveVC.xib; sourceTree = "<group>"; };
 		633E898722A22D3F00DF12D8 /* WaterWaveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWaveVC.h; sourceTree = "<group>"; };
 		633E898822A22D3F00DF12D8 /* WaterWaveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWaveVC.m; sourceTree = "<group>"; };
+		633E898F22A274E600DF12D8 /* JGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGView.h; sourceTree = "<group>"; };
+		633E899022A274E600DF12D8 /* JGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGView.m; sourceTree = "<group>"; };
+		633E899222A2769400DF12D8 /* JGDrawController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGDrawController.h; sourceTree = "<group>"; };
+		633E899322A2769400DF12D8 /* JGDrawController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGDrawController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +241,8 @@
 				633E894122A217EC00DF12D8 /* JGCGContextRefView.m */,
 				633E894922A225C800DF12D8 /* JGWaveWaterView.h */,
 				633E894A22A225C800DF12D8 /* JGWaveWaterView.m */,
+				633E898F22A274E600DF12D8 /* JGView.h */,
+				633E899022A274E600DF12D8 /* JGView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,6 +261,8 @@
 			children = (
 				633E893A22A2178900DF12D8 /* JGTwoController.h */,
 				633E893B22A2178900DF12D8 /* JGTwoController.m */,
+				633E899222A2769400DF12D8 /* JGDrawController.h */,
+				633E899322A2769400DF12D8 /* JGDrawController.m */,
 			);
 			path = Two;
 			sourceTree = "<group>";
@@ -553,6 +564,8 @@
 				633E898222A22D1D00DF12D8 /* ProgressViewController.m in Sources */,
 				633E88FF22A2160700DF12D8 /* JGAppDelegate.m in Sources */,
 				633E898522A22D2C00DF12D8 /* CalibrationViewController.m in Sources */,
+				633E899122A274E600DF12D8 /* JGView.m in Sources */,
+				633E899422A2769400DF12D8 /* JGDrawController.m in Sources */,
 				633E894222A217EC00DF12D8 /* JGCGContextRefView.m in Sources */,
 				633E897622A22CD300DF12D8 /* MLMStatisticalView.m in Sources */,
 				633E897122A22CD300DF12D8 /* MLMProgressView.m in Sources */,
